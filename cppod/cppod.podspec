@@ -80,7 +80,7 @@ DESC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/onetestpod/cppod.git", :commit => "10317dd"}
+  s.source       = { :git => "https://github.com/onetestpod/cppod.git", :commit => "3ea547b"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ DESC
   #
 
   s.source_files  = "cppod/cppod/UserHelpView/*.{h,m,xib}","cppod/cppod/UserHelpView/Model/*.{h,m}"
-  s.resources = "cppod/cppod/image/*.{png}"
+  s.resources = "cppod/cppod/UserHelpView/image/*.{png}"
 
   s.dependency "AFNetworking", "3.2.1"
   s.dependency "MJExtension", "3.0.15.1"
