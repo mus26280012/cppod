@@ -112,7 +112,7 @@
 				4A56FFE92131056600D46646 /* ZJTUserHelpView.m */,
 				4A56FFE42131056600D46646 /* ZJTUserHelpViewXib.xib */,
 				4A56FFE62131056600D46646 /* Model */,
-				4A56FFEB2131056600D46646 /* 素材image */,
+				4A56FFEB2131056600D46646 /* image */,
 			);
 			path = UserHelpView;
 			sourceTree = "<group>";
@@ -126,13 +126,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		4A56FFEB2131056600D46646 /* 素材image */ = {
+		4A56FFEB2131056600D46646 /* image */ = {
 			isa = PBXGroup;
 			children = (
 				4A56FFEC2131056600D46646 /* NoNet.png */,
 				4A56FFED2131056600D46646 /* tool.png */,
 			);
-			path = "素材image";
+			path = image;
 			sourceTree = "<group>";
 		};
 		D09CC1599A9CD0AC1CBDF270 /* Frameworks */ = {
