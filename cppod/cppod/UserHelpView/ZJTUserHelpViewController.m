@@ -1,13 +1,10 @@
 
 #import "ZJTUserHelpViewController.h"
-
-#import <MBProgressHUD.h>
-#import <MJExtension.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MJExtension/MJExtension.h>
 #import "ZJTGetModel.h"
-#import "MJExtension.h"
 #import "ZJTUserHelpView.h"
-#import <AFNetworking.h>
-#import "AppDelegate.h"
+#import <AFNetworking/AFNetworking.h>
 @interface ZJTUserHelpViewController ()<UIWebViewDelegate,UIAlertViewDelegate>
 
 @property(nonatomic,strong)ZJTUserHelpView *helpView;
