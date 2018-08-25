@@ -34,7 +34,7 @@
     
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     NSString *str=   [NSString stringWithFormat:@"https://www.vr439.com/Api/act/get_api?app_id=%@",self.appid];
-#warning - 测试id=1425608954，测试完毕之后用自己的app_id
+//#warning - 测试id=1425608954，测试完毕之后用自己的app_id
     AFHTTPSessionManager *session = [AFHTTPSessionManager manager];
     session.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"application/x-json",@"text/html", nil];
     [session GET:str parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
